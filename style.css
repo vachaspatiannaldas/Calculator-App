@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: #b3ffff;
+    border: none;
+    color: #006666;
+}
+
+.textview {
+    width: 208px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    background: #ccffff;
+    color: #006666;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+body {
+    background: #00cccc;
+}
+
+h1 {
+    color: #008080;
+}
